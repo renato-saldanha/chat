@@ -23,7 +23,7 @@ export default function Home() {
   
   return (
     <div
-      className={`${geistSans.className} ${geistMono.className} font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-6 sm:p-20 mt-18`}
+      className={`${geistSans.className} ${geistMono.className} font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-6 sm:p-20`}
     >
       <main className="flex flex-col gap-[32px] row-start-2 items-center border border-gray-300 rounded-md p-8 max-w-2xl w-full">
         <textarea className="border border-gray-300 rounded-md p-2 w-full max-w-md h-[200px] resize-none">
